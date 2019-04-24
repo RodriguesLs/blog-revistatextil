@@ -1,0 +1,18 @@
+<header>
+  <div class='div-header'> 
+    <h1>REVISTA TÊXTIL</h1>
+  </div>
+</header>
+
+<%= link_to 'Novo post', new_post_path, class: 'btn-link' %>
+
+<main>
+    <% @posts = Post.all %>
+    <% @posts.each do |post| %>
+      <div class='main-content'>
+        <h2><%= post.title %></h2>
+        <hr>
+        <p><%= post.content %> </p>
+      </div>
+    <%end%>
+</main>

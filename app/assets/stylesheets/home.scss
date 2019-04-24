@@ -1,0 +1,52 @@
+body {
+  background-image: url("revista3g.jpg")
+}
+
+.div-header {
+  height: 5em;
+  width: 100%;
+  background-color: aquamarine;
+  text-align: center;
+  padding-top: 1.5em;
+  box-sizing: border-box;
+}
+
+.div-header h1{
+  margin-top: 0;
+  padding: 0;
+  font-size: 3em;
+  color: white;
+  text-shadow: 2px 2px 2px red;
+}
+
+.main-content {
+  border: 1px red solid;
+  margin: 3em 20em;
+  text-align: left;
+  background-color: white;
+}
+.main-content h2 {
+  margin-left: 2em;
+}
+
+.main-content p {
+  margin-left: 3em;
+}
+
+.btn-link {
+  border-radius: 5px;
+  border: 1px solid white;
+  padding: 5px;
+  display: block;
+  width: 5em;
+  margin: 3em;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  background-color: blue;
+}
+
+.btn-link:visited {
+  color:white;
+  font-size: 2em;
+}
