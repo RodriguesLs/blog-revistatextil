@@ -12,6 +12,7 @@
       <div class='main-content'>
         <h2><%= post.title %></h2>
         <hr>
+        <%= image_tag post.picture(:big), class: 'img-content' %>
         <p><%= post.content %> </p>
       </div>
     <%end%>
